@@ -1,0 +1,24 @@
+.table {
+  width: 800px;
+  margin: 0 auto;
+  background-color: #fff;
+  box-shadow: -2px 4px 18px -12px rgba(0, 0, 0, 0.349);
+}
+
+.headerCell {
+  text-align: start;
+  padding: 1em 0.5em;
+  font-size: 19px;
+  font-family: sans-serif;
+}
+
+.bodyCell {
+  padding: 0.5em 1em;
+  font-size: 17px;
+  font-family: sans-serif;
+  border-bottom: 1px solid #777272bd;
+}
+
+.bodyCell:not(:last-child) {
+  border-right: 1px solid #777272bd;
+}
